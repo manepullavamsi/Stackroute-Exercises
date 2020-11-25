@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin:0;
+    overflow-x:hidden;
+}
+.navbar
+{
+    background-color: #ffde22 !important; 
+    border-bottom: 2px solid coral !important;
+    color: black !important;
+}
+.row{
+    margin-top: 0%;
+}
+
+.navbar-brand img
+{
+    height: 10vh;
+    width: 10vw;
+}
+.product-desc h3{
+    padding:1em;
+    text-justify: auto;
+    color: white;
+}
+
+.fa{
+    font-size: 2em !important;
+    padding: 0.5em !important;
+    color: #fff;
+}
+.dropdown-item{
+    background-color: orangered !important;
+}
+
+.footer-sec
+{
+    background-color: olivedrab;
+    text-align: center;
+}
+#foot{
+    text-align: center;
+}
+.ch1{
+    font-family: 'Trirong', serif;
+    font-size: 2.5em;
+    color: rgba(216, 27, 27, 0.938);
+}
+.cp1{
+    font-family: 'Trirong', serif;
+    font-size: 2em;
+    color: rgba(26, 134, 196, 0.938);
+}
+.ch2{
+    font-family: 'Trirong', serif;
+    font-size: 2.5em;
+    color: rgba(188, 63, 199, 0.938);
+}
+.cp2{
+    font-family: 'Trirong', serif;
+    font-size: 2em;
+    color: rgba(212, 23, 23, 0.938);
+}
+.ch3{
+    font-family: 'Trirong', serif;
+    font-size: 2.5em;
+    color: rgba(105, 199, 93, 0.938);
+}
+.cp3{
+    font-family: 'Trirong', serif;
+    font-size: 2em;
+    color: rgba(26, 134, 196, 0.938);
+}
+
+.jumbotron{
+    background-color:burlywood !important;
+    text-align: center;
+    font-family: 'Amiri', serif;
+    margin: 0%;
+}
+.product-sec img{
+    width: 300px;
+    height: 300px;
+    border-radius: 17px;
+    margin: 0%;
+    
+
+}
+.product-sec{
+    font-family: 'Trirong', serif;
+    font-size: 3em !important;
+    margin: 0%;
+}
+.row p{
+    text-align: justify !important;
+    font-family: 'Architects Daughter', cursive;
+}
+#connect a{
+height: 2vh;
+width: 2vw;
+}
+.navbar-nav{
+    margin-right: 10vw;
+}

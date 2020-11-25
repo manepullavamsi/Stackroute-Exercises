@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="a" class="com.pratcise.demo.Task1.Actor">
+<property name="name" value="Venkateshwara"/>
+<property name="gender" value="Male"></property>
+<property name="age" value="30"></property>
+</bean>
+<bean id="movie" class="com.pratcise.demo.Task1.Movie">
+<property name="actor" ref="a"></property>
+</bean> 
+</beans>

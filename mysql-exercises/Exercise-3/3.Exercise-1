@@ -1,0 +1,23 @@
+1.1
+
+use NIIT;
+select Start_Date,count(Student_Id) as Total_No_Students from Student_Status group by Start_Date;
+
+1.2
+use NIIT;
+select Start_Date,count(Student_Id) as Total_No_Students,TFeedbackGiven from Student_Status where TFeedbackGiven='F001' group by Start_Date;
+
+1.3
+
+use NIIT;
+select Start_Date,count(Student_Id)>2 as Total_No_Students,TFeedbackGiven from Student_Status where TFeedbackGiven='F001' group by Start_Date;
+
+1.4
+
+use NIIT;
+select Module_Id,Module_Duration from  ModuleDetails order by Module_Duration ASC;
+
+1.5
+
+use NIIT;
+select Student_Name,Module_Name,Module_Id from StudentDetails,ModuleDetails order by Student_Name;
